@@ -1,0 +1,6 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: When you initialize a repository, git creates .git folder with data.
+ You should do it to indicate that this folder is repository.
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: Staging area is monitored object, which operated by commit. It offers a container to select files for commit.
+
