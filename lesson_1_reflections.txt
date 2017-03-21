@@ -1,0 +1,14 @@
+Q: How did viewing a diff between two versins of a file help you see the bug that was introduced?
+A: Using diff command you can automaticaly compare two files for equality. If any differences exist you can see them in short and convinient format. For example:
+>diff -u game_old.js game_new.js 
+will issue in universal diff format changed lines.
+
+Q: How could having easy access to the entire history of a file you a more efficient programmer in the long term?
+A: If you can save all versions of your file and view any difference, you can do more radically in your work. For example you can edit your files without afraid to introduce some bugs or loose some good blocks of code.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in git, vs having versions automatically saved, like Google Docs does?
+A: Pros: you can choose to commit only complete work instead of random commit on half a work (code can be with compile errors).
+   Cons: If you spotted blackout during your work, you can loose your whole bunch of changes - if you forget to save changes
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A: Git designed to handle changes in related files, while Google docs works with separate unrelated files.
