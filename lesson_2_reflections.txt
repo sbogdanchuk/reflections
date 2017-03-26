@@ -5,4 +5,6 @@ Q: How is the staging area different from the working directory and the reposito
 A: Staging area is monitored object, which operated by commit. It offers a container to select files for commit.
 Q: How can you user the staging area to make sure you have one commit per logical change?
 A: You can introduce changes without bothering about the commits. Then you can add files to the stage (files should represent single change), then commit staged files as a single logical change. Then repeat procedure for the remaining changes. Stage separates logical changes to the commits.
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: When you want to play with some experimental features in project, but don't want to alter master branch code, or want to introduce some new features and not include into the master branch before complete, you should use branches
 
