@@ -11,3 +11,15 @@ Q: How do the diagrams help you visualize the branch structure?
 A: Diargrms can show you what commits belongs to what branches and which commits included in branch.
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 A: The result of merging branches is merging code changes from both of them. we represent it in diagram like confluence of two branches (label set only on the current branch).
+Q: Whant are the pros and cons of Git's automatic merging vs. always doing merges manually?
+A: automerge pros: 
+		can speedup a work
+		in most cases does the job
+	     cons:
+	     	can't merge when the same lines changed in both branches
+
+   manual merges:
+   	     pros:
+	     	full control on merge
+	     cons:
+	     	can be boring and time consuming on most simple cases
