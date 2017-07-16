@@ -6,3 +6,5 @@ Q: Describe the differences between forks, clones, and branches. When whould you
 A: Clone used on local repository and between github and local. In between github repos used fork. branches are entities of the same one repository. So if you whant to create clone of the github repository you are doing the fork.
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 A: You can be in the middle of the commit and should go offline, so for the keeping on track you can fetch changes from origin to be uptodate and merge after your work is done.
+Q: How would you collaborate without using Git or GitHub? What whould be easier, and what would be harder?
+A: Without GitHub we can exchange work with patches, It would be much harder to resolve merges. Much easier to use GitHub to collaborate.
