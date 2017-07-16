@@ -8,3 +8,5 @@ Q: What is the benefit of having a copy of the last known state of the remote st
 A: You can be in the middle of the commit and should go offline, so for the keeping on track you can fetch changes from origin to be uptodate and merge after your work is done.
 Q: How would you collaborate without using Git or GitHub? What whould be easier, and what would be harder?
 A: Without GitHub we can exchange work with patches, It would be much harder to resolve merges. Much easier to use GitHub to collaborate.
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A: A separate branch can be convinient in case of more than one commit needed to finish feature. This prevents master from development bugs. There are only one benefit from commiting to the master branch - speedup in case of single developer or in case of strict division between developers in code.
